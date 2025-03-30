@@ -48,6 +48,8 @@ body {
 	box-shadow: 5px 0px 15px 0px #b3b3b3;
 	z-index: 5;
 }
+
+/* mobile user view for: Name, profession, about me and contact me section*/
 .profile {
 	position: relative;
 	background-color: var(--profile-theme);
@@ -55,6 +57,10 @@ body {
 	margin-bottom: 50px;
 	text-align: center;
 }
+
+/* desktop display for: Name, profession, about me and contact me section
+   this view is on the left of the screen and is the intro(name, image and profession) 
+   bottom half of the intro has a -5 degree slant*/
 .profile::after {
 	content: " ";
 	position: absolute;
